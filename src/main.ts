@@ -1,5 +1,3 @@
-import 'modern-normalize/modern-normalize.css'
-import './style.css'
 import j2m from 'jira2md';
 
 const jiraInput = document.querySelector('#jira-input') as HTMLTextAreaElement;
