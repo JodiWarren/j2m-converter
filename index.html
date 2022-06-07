@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+  </head>
+  <body>
+    <header>
+      <h1>Convert Jira to Markdown</h1>
+    </header>
+    <main>
+      <div class="jira">
+        <h2>Jira</h2>
+        <textarea id="jira-input" cols="30" rows="10"></textarea>
+      </div>
+      <div class="markdown">
+        <h2>Markdown</h2>
+        <textarea id="markdown-input" cols="30" rows="10"></textarea>
+      </div>
+      <div class="html">
+        <h2>HTML</h2>
+        <textarea disabled id="html-input" cols="30" rows="10"></textarea>
+      </div>
+    </main>
+    <footer>
+      <small>Using <a href="https://github.com/kylefarris/J2M">j2m by Kyle Farris</a></small>
+    </footer>
+    
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
